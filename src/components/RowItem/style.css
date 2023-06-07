@@ -3,18 +3,18 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem .3rem;
+    padding: 2rem .3rem;
     margin: 0px 10px;
     
     transition: all ease-in-out .2s;
     cursor: pointer;
-    border-bottom:2px solid #52f08e;
+    
 }
 .main:hover { 
     transform: scale(1.1);
 }
 .mainActive { 
-    border-bottom: none;
+   
     transform: scale(1.1);
 }
 .main:active {
