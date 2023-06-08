@@ -6,7 +6,7 @@ const Products = ({amountToDisplay}) => {
   const products = useSelector((state)=> state.product.products)
   const isWaiting =  useSelector((state)=> state.product.isWaiting)
   return (
-    <div className="container">
+    <div className="container-fluid my-3">
     <div className="row">
       {isWaiting ?  <>
           <Skeleton className='m-auto' variant="circular" width={85} height={85} />
