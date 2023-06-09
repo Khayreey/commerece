@@ -2,7 +2,7 @@ import React  from "react";
 
 import SingleImage from "../components/SingleImage/SingleImage";
 import { useTranslation , withTranslation} from "react-i18next";
-let arr = [1,2,3,4,5]
+let arr = [1,2,3,4]
 const Localize = () => {
   const {t , i18n } = useTranslation()
   const changeHandler = ()=>{
