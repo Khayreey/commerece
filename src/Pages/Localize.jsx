@@ -11,7 +11,7 @@ const Localize = () => {
   }
   return (
     <>
-   <div className='d-flex justify-content-center m-2'>
+   <div className='d-flex justify-content-center p-2 w-100'>
 
   {arr.map((e , index)=>{
     return (
